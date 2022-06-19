@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>practiceOOP</title>
+</head>
+
+<body>
+  <form action="#">
+    <div class="inputs">
+      <div class="general block">
+        <label for="new">
+          <span>Новый/С пробегом</span>
+          <select name="new" id="new">
+            <option value="">Выберете тип</option>
+            <option value="1">Новое авто</option>
+            <option value="2">Авто с пробегом</option>
+          </select>
+        </label>
+        <label for="brand">
+          <span>Марка</span>
+          <input type="text" id="brand">
+        </label>
+        <label for="model">
+          <span>Модель</span>
+          <input type="text" id="model">
+        </label>
+        <label for="body">
+          <span>Кузов</span>
+          <input type="text" id="body">
+        </label>
+        <label for="auto-box">
+          <span>АКПП</span>
+          <input type="checkbox" id="auto-box">
+        </label>
+        <label for="engine-volume" id="label-f">
+          <span>Объем двигателя<br>(через точку ".")</span>
+          <input type="text" id="engine-volume">
+        </label>
+        <label for="color">
+          <span>Цвет</span>
+          <input type="text" id="color">
+        </label>
+        <label for="price">
+          <span>Начальная стоимость</span>
+          <input type="text" id="price">
+        </label>
+      </div>
+      <div class="new-cars block">
+        <label for="warranty-years">
+          <span>Гарантия, лет</span>
+          <input type="text" id="warranty-years">
+        </label>
+        <label for="official-dealer">
+          <span>Официальынй диллер</span>
+          <input type="text" id="official-dealer">
+        </label>
+      </div>
+      <div class="old-cars block">
+        <label for="product-year">
+          <span>Год производства</span>
+          <input type="text" id="product-year">
+        </label>
+        <label for="car-mileage">
+          <span>Пробег</span>
+          <input type="text" id="car-mileage">
+        </label>
+        <label for="accidents">
+          <span>ДТП</span>
+          <input type="checkbox" id="accidents">
+        </label>
+        <label for="amount-owners">
+          <span>Количество владельцев</span>
+          <input type="text" id="amount-owners">
+        </label>
+      </div>
+    </div>
+    <button class="btn">Сохранить</button>
+  </form>
+  <table id="table">
+    <tr>
+      <th>№ п/п</th>
+      <th>Новое</th>
+      <th>Марка</th>
+      <th>Модель</th>
+      <th>Кузов</th>
+      <th>АКПП</th>
+      <th>Объем двигателя</th>
+      <th>Цвет</th>
+      <th>Гарантия, лет</th>
+      <th>Официальынй диллер</th>
+      <th>Год производства</th>
+      <th>Пробег</th>
+      <th>ДТП</th>
+      <th>Количество владельцев</th>
+      <th>Цена</th>
+      <th>Удаление</th>
+      <th>Комментарий</th>
+    </tr>
+  </table>
+
+</body>
+
+</html>
